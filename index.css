@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FEB9B9; /* Set background color to pink */
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+  
+}
+
+h2 {
+    color: #FF5252;
+    font-size: 34px; /* Increase font size */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+    letter-spacing: 4px; /* Add letter spacing for better readability */
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 10px; /* Add border radius for rounded corners */
+    /* Add shadow effect */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #FF6B6B; /* Update button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px; /* Add border radius for rounded corners */
+    transition: background-color 0.3s; /* Add transition for smoother hover effect */
+}
+
+input[type="submit"]:hover {
+    background-color: #FF5252; /* Update hover color */
+    transform: translateY(-2px); /* Add slight upward movement on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect on hover */
+}
+
+.responseMessage p {
+    font-size: 24px; /* Increase font size */
+    color: #FF4081; /* Set text color to a Valentine's Day shade */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+    letter-spacing: 1px; /* Add letter spacing for better readability */
+    font-family: 'Courier New', monospace; /* Set font family */
+    font-weight: bold; /* Add bold font weight */
+}

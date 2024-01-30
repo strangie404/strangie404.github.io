@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Will you be my Valentine?</h2>
+        <img id="valentineImg" src="https://media.tenor.com/-aW73OVUtyYAAAAi/tkthao219-bubududu.gif" alt="Valentine Image">
+        <div class="buttons">
+            <form method="post" action="response.php" id="responseForm">
+                <input type="submit" name="response" value="Yes" id="yesBtn">
+                <input type="submit" name="response" value="No" id="noBtn"> <!-- Add id for targeting in JS -->
+            </form>
+        </div>
+        <div id="responseMessage" class="responseMessage" style="display: none;">
+    <p>Thank you for accepting! Happy Valentine's Day: Your Boyfren!</p>
+</div>
+    </div>
+</body>
+</html>
